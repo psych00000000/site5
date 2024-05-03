@@ -1,0 +1,160 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.header {
+    padding-left: 156px;
+    margin: 0 auto;
+    background-color: #4694dc;
+    width: 1440px;
+    height: 500px;
+    color: #FFF;
+    margin-bottom: 100px;
+}
+
+.container {
+    max-width: 880px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_h1 {
+    padding-top: 140px;
+
+    font-size: 56px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.header_p {
+    width: 380px;
+
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.header_btn {
+    padding: 18px 40px;
+    border: none;
+    background-color: #fff;
+}
+
+.services {
+    margin-bottom: 160px;
+}
+
+.services_inner {}
+
+.section_h2 {
+    text-align: center;
+    color: #000;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3.3px;
+    margin-bottom: 24px;
+
+}
+
+.section_title {
+    margin: 0 auto;
+    color: #9CA3AF;
+
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4%;
+    text-align: center;
+    margin-bottom: 125px;
+    width: 465px;
+}
+
+.services_grid {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.services_grid_items {
+    text-align: center;
+    padding: 38px 27px;
+    white-space: nowrap;
+
+}
+
+.services_p {
+    padding-top: 37px;
+
+    color: #9CA3AF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+
+}
+
+.talent_inner {}
+
+.section_h2 {}
+
+.section_title {}
+
+.taalent_grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.talent_grid_items {
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 142px;
+    width: 260px;
+    display: flex;
+    text-align: center;
+    border-radius: 11px;
+    box-shadow: 0px 4px 70px 0px rgba(91, 93, 99, 0.06);
+    background: #fff;
+    align-items: center;
+}
+
+.left {
+    margin-right: 8px;
+}
+
+.right h6 {
+    text-align: left;
+    font-size: 12px;
+font-weight: 700;
+line-height: 26px;
+
+}
+
+.right p {
+    
+    font-style: italic;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
